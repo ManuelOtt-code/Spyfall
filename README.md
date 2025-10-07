@@ -22,9 +22,8 @@ conda activate spyfall
 ```
 
 # Setup of the Gmail API
-Follow the instructions on https://developers.google.com/workspace/gmail/api/quickstart/python?hl=de 
-
-# Run quickstart.py
+1. Follow the instructions on https://developers.google.com/workspace/gmail/api/quickstart/python?hl=de 
+2. Run quickstart.py
 ```bash
 python3 quickstart.py
 ```
