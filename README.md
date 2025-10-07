@@ -1,18 +1,33 @@
 # Spyfall
-Spyfall game
 
+Lokales Spyfall-Spiel mit E-Mail-Versand über die Gmail API.
 
-## Setup
+## Voraussetzungen
+- Python 3
+- mamba oder conda
+- Google-Konto
+- pip
+
+## Installation
 git clone https://github.com/ManuelOtt-code/Spyfall
+cd Spyfall
+mamba env create -f environment.yml
+mamba activate spyfall
+# Alternativ:
+conda env create -f environment.yml
+conda activate spyfall
 
-## Create the environment
-mamba env create -f environment.yml 
+## Gmail API einrichten
 
-# follow the instructions in the google documentation for setting up the mail api
-https://developers.google.com/workspace/gmail/api/quickstart/python?hl=de
-
-# Run quickstart.py to initialize the mail, follow link in terminal to validate the connection 
-python3 quickstart.py
-
-# To start the game run
+1. Google Cloud Console öffnen und das richtige Projekt wählen.
+2. Gmail API aktivieren.
+3. OAuth-Zustimmungsbildschirm konfigurieren und den eigenen Account als Testnutzer eintragen.
+4. OAuth-Client vom Typ Desktop erstellen und `credentials.json` ins Projektverzeichnis legen.
+5. Erstanmeldung ausführen:
+   ```bash
+   python3 quickstart.py
+# Spiel starten
 python3 spyfall.py
+
+
+
