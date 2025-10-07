@@ -9,13 +9,17 @@ Local spyfall game where Emails are sent to detectives/spies by using the gmail 
 - pip
 
 ## Installation
+```bash
 git clone https://github.com/ManuelOtt-code/Spyfall
 cd Spyfall
 mamba env create -f environment.yml
 mamba activate spyfall
+```
 # Alternatively:
+```bash
 conda env create -f environment.yml
 conda activate spyfall
+```
 
 ## Setup of the Gmail API
 Follow the instructions on https://developers.google.com/workspace/gmail/api/quickstart/python?hl=de 
