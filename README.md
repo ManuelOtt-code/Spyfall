@@ -25,9 +25,13 @@ conda activate spyfall
 Follow the instructions on https://developers.google.com/workspace/gmail/api/quickstart/python?hl=de 
 
 # Run quickstart.py
+```bash
 python3 quickstart.py
+```
 # Start the game
+```bash
 python3 spyfall.py
+```
 
 
 
